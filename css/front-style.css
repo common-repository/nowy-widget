@@ -1,0 +1,253 @@
+
+
+.noway-main footer {
+  text-align: center;
+  padding: 5px;
+}
+
+.noway-main a.footer-link {
+  color: #0170b9;
+  text-decoration: none;
+}
+
+.noway-main .free-wall {
+}
+
+.noway-main #freewall {
+  margin-bottom: 30px;
+}
+
+.noway-main .user_container {
+  display: flex;
+  line-height: 26px;
+  width: 100%;
+  padding: 10px;
+}
+
+.noway-main .footer-container{
+  width: 100%;
+  bottom: 0;
+}
+
+.noway-main .brick {
+  width: 221.2px;
+  border-radius: 10px;
+}
+
+.noway-main .info {
+  color: #333;
+}
+
+.noway-main .brick-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.noway-main .img-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 1;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.noway-main .location {
+  position: absolute;
+  bottom: 2px;
+  margin: 4px;
+  padding: 0 4px;
+  color: black;
+  background: rgba(230, 230, 230, 0.88);
+  border-radius: 4px;
+}
+
+.noway-main .content {
+ /* min-height: 52px; */
+ 
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px 10px 0 10px;
+}
+
+.noway-main .noway-main .heart {
+  font-size: 14px;
+  color: red;
+}
+
+.noway-main .header-img {
+  width: 26px;
+  height: 26px;
+  border-radius: 45px;
+  padding-bottom: 2px;
+}
+
+.noway-main .previewDiv {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.noway-main .preview_img {
+  width: 100%;
+}
+
+.noway-main .preview_container {
+  padding: 20px;
+}
+
+.noway-main .preview_content {
+  font-size: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: break-spaces;
+}
+
+.noway-main .preview_divide {
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.88);
+}
+
+.noway-main .preview_topic {
+  font-size: 16px;
+}
+
+.noway-main .preview_location {
+  color: black;
+  background-color: lightgray;
+  width: 200px;
+  opacity: 0.7;
+}
+
+.noway-main .modal-dialog {
+  max-width: 1000px;
+}
+
+.noway-main .heart-container {
+  float: right;
+  right: 0;
+  position: absolute;
+  padding-right: 10px;
+}
+
+.noway-main .carousel-indicators .active {
+  width: 30px;
+  color: deepskyblue;
+  background-color: deepskyblue;
+  height: 5px;
+}
+
+.noway-main .img-container {
+  position: relative;
+}
+
+.noway-main .overlay-content {
+  width: 100%;
+  opacity: 1;
+  color: white;
+  height: 150px;
+  font-size: 20px;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px;
+  margin-top: 40px;
+}
+.noway-main .pr-1.close:focus {
+  outline: none;
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px) {
+  .noway-main .modal-dialog.modal-lg {
+    border-radius: 6px;
+    box-shadow: 1px 3px 8px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .noway-main .modal {
+    top: 0;
+  }
+
+  .noway-main .close {
+    background: #000000 !important;
+    margin: 4px 4px 0 0px;
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+
+  .noway-main .close span {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    width: 18px;
+    height: 21px;
+    padding-left: 4px;
+  }
+
+  .noway-main .modal-body {
+    padding: 3px 6px;
+  }
+
+  .noway-main .modal-body .row > div {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .noway-main span.badge.badge-info {
+    background: #f0f0f0;
+    border-radius: 11px;
+    padding: 4px 6px;
+    font-size: 14px !important;
+    color: #999999;
+    margin-bottom: 3px;
+    transition: all 0.5s;
+    white-space: normal;
+    text-align: start;
+  }
+  .noway-main span.badge.badge-info:hover {
+    color: #ffffff;
+    background: #62d3a3;
+  }
+  .noway-main div#exampleModal {
+    padding-right: 0 !important;
+  }
+  .noway-main span.badge.badge-info img {
+    margin-right: 4px;
+    filter: brightness(0%);
+    opacity: 0.3;
+  }
+  .noway-main .carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .noway-main .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color: white;
+  }
+
+  .noway-main span.badge.badge-info:hover img {
+    filter: brightness(100%);
+    opacity: 1;
+  }
+
+  .noway-main .preview_container {
+    padding: 10px;
+  }
+
+  .noway-main .preview_container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
